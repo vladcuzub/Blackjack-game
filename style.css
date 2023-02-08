@@ -1,0 +1,54 @@
+* {
+     margin: 0 ;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+body{
+
+  
+     margin: 10em auto;
+     height: 100vh;
+     text-align: center;
+     background: rgb(2,0,36);
+     background: linear-gradient(351deg, rgba(2,0,36,1) 0%, rgba(19,121,9,1) 43%, rgba(2,22,2,1) 86%);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+
+h1 {
+     color: goldenrod;
+     border-style: 0.5 solid white;
+     text-shadow: 2px 2px black;
+     font-size: 80px;
+ }
+
+ p {
+     color: white;
+     font-size: 20px;
+     line-height: 2em;
+
+ }
+
+ #start-btn {
+     font-size: 20px;
+     padding: 10px;
+     background: red;
+     text-transform: uppercase;
+     color: white;
+     font-style: bold;
+     font-weight: 700;
+     border: none;
+     border-radius: 18px;
+     width: 150px;
+     margin-top: 3rem;
+     cursor: pointer;
+     box-shadow:  8px 4px 20px black;
+ }
+
+ #player-el {
+    margin-top: 25px;
+ }
